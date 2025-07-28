@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Chicken Aviator</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="game-container">
+    <div class="header">
+      <h1>🐔 Chicken Aviator</h1>
+      <div id="points">Points: <span id="points-value">0</span></div>
+    </div>
+
+    <div class="game-screen">
+      <img id="chicken" src="assets/chicken.png" alt="Flying Chicken" />
+      <div id="multiplier">1.00x</div>
+    </div>
+
+    <div class="controls">
+      <button id="start-btn">Start</button>
+      <button id="cashout-btn" disabled>💰 Cash Out</button>
+    </div>
+
+    <div class="result" id="result-msg"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
